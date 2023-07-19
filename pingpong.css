@@ -1,0 +1,155 @@
+
+/************************ START BUTTON**************************************/
+#start{
+    height:10vh;
+    width:22vh;
+    background-color: aliceblue;
+    border: 0.4px black solid;
+    border-radius: 10px;
+    position: absolute;
+    top:5vw;
+    right:8vh;
+}
+#start h1{
+    position: relative;
+    left:0vh;
+    top:-3vh;
+    font-size: 6.8vh;
+}
+
+
+
+
+/************************ RESTART BUTTON**************************************/
+#restart{
+    height:10vh;
+    width:22vh;
+    color: rgb(123, 106, 106);
+    background-color: aliceblue;
+    border: 0.4px black solid;
+    border-radius: 10px;
+    position: absolute;
+    top:25vw;
+    right:8vh;
+    text-align: center;
+}
+
+
+
+
+/******************SCOREBOARD*************************/
+#score{
+  
+    height:15vh;
+    width:22vh;
+    background-color: aliceblue;
+    border: 0.4px black solid;
+    border-radius: 10px;
+    position: absolute;
+    top:15vw;
+    right:8vh;
+    font-size:5vh; 
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+/******************BEST-SCOREBOARD*************************/
+#bestscore{
+  
+    height:15vh;
+    width:22vh;
+    background-color: aliceblue;
+    border: 0.4px black solid;
+    border-radius: 10px;
+    position: absolute;
+    top:35vw;
+    right:8vh;
+    font-size:5vh; 
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+}
+ #score-text,#bestscore-text{
+font-size: 5vh;
+}
+#score-digit,#bestscore-digit{
+    font-size: 8vh;
+}
+
+
+
+
+/******************  RODS  *************************/
+#top-rod{
+    position:absolute;
+    height:6%;
+    border-radius: 5px;
+    top:0.5%;
+    left:50%;
+    width:19%;
+    background-color: rgb(60, 64, 176);
+}
+#bottom-rod{    position:absolute;
+    height:6%;
+   
+border-radius: 5px;
+    bottom:0.5%;
+    left:50%;
+    width:19%;
+    background-color: #eb0a1c;
+}
+
+
+
+
+
+
+/******************  BALL  *************************/
+#ball{
+   
+    position:absolute;
+    height:7vh;
+    
+    top:20%;
+    right:40%;
+    width:7vh;
+    border-radius: 50%;
+    background-color: rgb(181, 104, 27); 
+}
+
+
+
+
+/******************OUTER BOX*************************/
+#outer{
+    left:10vh;position: relative;
+    display:flex;
+    background-color: rgb(207, 74, 203);
+    width:90%;
+    height:95vh;
+
+}
+
+
+
+/******************LEFT BOX*************************/
+#left-box{
+    width:80%;
+    height:100%;
+    background-color: aquamarine;
+}
+
+
+
+
+/******************RIGHT BOX*************************/
+#right-box{
+    width:20%;
+    height:100%;
+    background-color: rgb(165, 78, 89);
+}
